@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Thermal Comfort</string>
+    <string name="seekbar_background" />
+    <string name="submit">SUBMIT</string>
+    <string name="i_prefer">I Prefer</string>
+    <string name="reset">RESET</string>
+    <string name="my_tb_title">Thermal Comfort</string>
+    <string name="menu_1">Log In</string>
+    <string name="menu_2">Sign Up</string>
+    <string name="menu_3">Connection Setting</string>
+    <string name="menu_4">Log Out</string>
+    <string name="it_apos_s_all_about_you">It\'s all about you...!</string>
+    <string name="menu_5">About</string>
+</resources>

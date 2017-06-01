@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/my_toolbar3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter IP address of the PC on which Java Server is running."
+        android:id="@+id/textView2"
+        android:layout_below="@+id/my_toolbar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/serverip"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:minLines="1"
+        android:maxLines="1"
+        android:lines="1"
+        android:maxLength="15"
+        android:hint="Server IP"
+        android:digits="0123456789."
+        android:text="192.168.1.113" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:id="@+id/ipsubmit"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/serverip"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:layout_alignParentEnd="false"/>
+
+</RelativeLayout>
